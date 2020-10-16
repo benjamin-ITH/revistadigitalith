@@ -1,0 +1,303 @@
+.logo1{
+    text-align: center;
+  }
+  .logo{
+    width: 150px;
+    filter: brightness(200%);
+    animation: escalar 1.5s infinite alternate;
+  }
+  
+  .body{
+      background-image: url(img/fondos.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  
+  }
+  .separador1{
+    height: 20px;
+  }
+  
+  .img1{
+   width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 50),
+  -20px -20px 20px rgba(0, 0, 0, 50);
+  transition: all 0.2s;
+  }
+  
+  .img1:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  
+  .img2{
+    width: 300px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-style: solid;
+   border-color: white;
+   border-radius: 400px;
+    transition: all 0.2s;
+  }
+  
+  .img2:hover{
+    transform: scale(0.9);
+    filter: grayscale(80%);
+  }
+  .img3 {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-style: solid;
+    border-image: url(img/border.png) 100 100 repeat ;
+    border-width: 30px;
+    transition: all 0.2s;
+  
+  }
+  .img3:hover{-webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+  }
+  
+  
+  
+  .titulo1{
+    color: blue;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font: italic bold 130px Georgia, Serif;
+    text-shadow: 1px 1px 0px rgb(230, 230, 230, 1),
+    2px 2px 0px rgb(200, 200, 200, 1),
+    3px 3px 0px rgb(180, 180, 180, 1),
+    4px 4px 0px rgb(160, 160, 160, 1),
+    5px 5px 0px rgba(0, 0, 0, 1),
+    8px 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .parrafo1{
+    text-align: justify;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      column-count: 2;
+      column-gap: 50px;
+    column-rule:solid 5px;
+    text-shadow: 1px 1px 0 rgb(253, 0, 0);
+  }
+  
+  .imagenes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .imgs{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(60%);
+    animation: escalar 1.5s infinite alternate;
+  }
+  @keyframes escalar {
+    to {
+      transform: scale(1.1);
+    }
+    from {
+      transform: scale(1);
+    }
+  }
+  .imgs:hover{
+    filter: brightness(100%);
+  }
+  
+  
+  
+  
+  .single-banner {
+    border-radius: 20px;
+    background-image: url(img/banner.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 100px;
+  
+  }
+  .single-title {
+    border-radius: 20px;
+    margin: 60px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    opacity: 50%;
+  }
+  .turisti-title{
+    color: #3700ff;
+    margin-bottom: .5rem;
+    line-height: 1;
+    text-shadow:0px 0px 20px rgb(217, 255, 0),
+                0px 0px 20px rgb(217, 255, 0),
+                0px 0px 20px rgb(217, 255, 0);
+              }
+  
+  
+  /*  .........................................................
+  .............................................................   */
+  
+  .bloque{
+  border: red 3px solid;
+  background-color: rgb(0, 183, 255);
+  opacity: 80%;
+  }
+  
+  .title{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline ;
+  color: rgb(255, 0, 0);
+  text-shadow: 4px -1px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .ibahia{
+    font-size: 20px;
+    line-height: 35px;
+    color: white;
+  }
+  
+  .imgibahia{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgibahia:hover{
+  filter: contrast(50%);
+  }
+  
+  
+  
+  .tela{font-size: 20px;
+    line-height: 35px;
+    color: white;
+  }
+  
+  .imgtela{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+    transform: skew(7deg, 3deg);
+  }
+  
+  .imgtela:hover{
+  filter: grayscale(100%);
+  }
+  
+  
+  
+  
+  
+  .cayos{font-size: 20px;
+    line-height: 35px;
+    color: white;
+  
+  }
+  
+  .imgcayos{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgcayos:hover{
+    filter: opacity(.5);
+  }
+  
+  
+  
+  
+  .ceiba{font-size: 20px;
+    line-height: 35px;
+    color: white;
+  }
+  
+  .imgceiba{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgceiba:hover{
+  filter: sepia(50%);
+  }
+  
+  
+  
+  
+  
+  .copan{font-size: 20px;
+    line-height: 35px;
+    color: white;
+  }
+  
+  .imgcopan{
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .imgcopan:hover{
+    filter: saturate(200%);
+    }
+  
+  .video{
+  text-align: center;
+    animation: escalar 1.5s infinite alternate;
+  }
+  .videos{
+    height: 400px;
+  
+  }
+  
+  @keyframes escalar {
+    to {
+      transform: scale(1.1);
+    }
+    from {
+      transform: scale(1.05);
+    }
+  }
+  
+  
+  
+  /*  .........................................................
+  .............................................................   */
+  
+  
+  
